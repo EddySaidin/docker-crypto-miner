@@ -17,7 +17,6 @@ services:
     networks:
       - crypto-miner
     environment:     
-      - MINING_COIN=XMR
       - WORKER_NAME=NHbQPGPMeAgGaLV9CUQ7bQaJQ2VJv96AUMbB
 
 networks:
