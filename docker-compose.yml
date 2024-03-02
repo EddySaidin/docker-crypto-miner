@@ -16,6 +16,10 @@ services:
     logging: *default-logging
     networks:
       - crypto-miner
+    environment:
+      - MINING_POOL=stratum+tcp://randomxmonero.auto.nicehash.com:9200
+      - MINING_COIN=XMR
+      - WORKER_NAME=NHbQPGPMeAgGaLV9CUQ7bQaJQ2VJv96AUMbB
 
 networks:
   crypto-miner:
