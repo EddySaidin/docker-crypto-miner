@@ -18,7 +18,7 @@ services:
       - crypto-miner
     environment:
       - MINING_POOL=stratum+tcp://randomxmonero.auto.nicehash.com:9200
-      - MINING_COIN=XMR
+      - MINING_COIN=monero
       - WORKER_NAME=NHbQPGPMeAgGaLV9CUQ7bQaJQ2VJv96AUMbB
 
 networks:
